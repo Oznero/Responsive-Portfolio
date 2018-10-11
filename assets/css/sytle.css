@@ -159,7 +159,7 @@ img {
     left: 0;
   }
 
-  nav {
+  nav a {
     line-height: 75px;
     justify-content: right;
     right: 0px;
@@ -173,18 +173,13 @@ img {
 
 @media screen and (max-width: 640px){
   header {
-    max-height: 200px;
     position: fixed;
+    top: 0;
+    left: 0;
   }
 
   .wrapper {
     padding-top: 130px;
-  }
-
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
   }
 
   .name {
@@ -195,6 +190,6 @@ img {
   .wrapper {
     padding-top: 160px;
     margin: 0 auto;
-    overflow: auto;
+    overflow-y: auto;
   }
 }
