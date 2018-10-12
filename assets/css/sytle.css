@@ -100,11 +100,14 @@ p {
 .input-name, .input-email{
   width: 500px;
   height: 20px;
+  display: block;
+  border:1px solid #ddd;
 }
 
 .input-message {
   width: 500px;
   height: 200px;
+  border: 1px solid #ddd;
 }
 
 .submit-button {
@@ -158,9 +161,8 @@ img {
     margin-left: 10px;
   }
 
-  /* .main-head {
-   overflow: auto;
-   clear: both;
+  /* .wrapper {
+    display: flex;
   } */
 
   nav {
@@ -173,9 +175,9 @@ img {
     margin-left: 10px;
   }
 
-  .wrapper {
+  /* .wrapper {
     margin-left: 10px;
-  }
+  } */
   
 }
 
@@ -194,9 +196,8 @@ img {
     margin: auto;
   }
 
-  .wrapper {/* 
-    /*padding-top: 160px;*/
+  /* .wrapper {
     margin: 0 auto;
-    overflow-y: auto; */
-  }
+    overflow-y: auto; 
+  } */
 }
